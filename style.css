@@ -1,0 +1,99 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0; 
+    text-align: justify;
+}
+/* Body required the margin 0, because its remove all defaul margin */
+h1{
+    font-size: 50px;
+}
+
+p{
+    color: dimgrey;
+}
+
+/* ----Start website First Section------- */
+.orange-highlight{
+    color: orange;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.half-width img{
+    width: 90%;
+}
+/* Background Image is not show because of Float left (float usally vacant for its first position, its required a declearation height on Section */
+.top-banner{
+    
+    background-image:url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+
+/* Button */
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato );
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+}
+
+/* ----------End of First Section----- */
+
+h2{
+    font-size: 40px;
+}
+
+.section-two{
+    background-image:url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+/* ---------End of section two------ */
+
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+}
+
+.experience-area{
+
+    background-image:url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+
+#main-stuck{
+    border-left: 7px solid;
+    border-image: linear-gradient( 180deg, lightsalmon, tomato );
+    border-image-slice: 1;
+    padding: 5px 25px;
+}
+
+#full-stuck{
+    border-left: 7px solid;
+    border-image: linear-gradient( 180deg, blue, cyan );
+    border-image-slice: 1;
+    padding: 5px 25px;
+}
+
+footer p{
+text-align: center;
+color: gray;
+font-size: 15px;
+}
